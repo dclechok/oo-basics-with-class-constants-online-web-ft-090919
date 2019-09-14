@@ -6,9 +6,10 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    BRANDS.each do |i|
-      BRANDS.i
-      BRANDS << @brand
+    if(BRANDS.include?(brand)
+      #
+    else
+       BRANDS << @brand
     end
   end
 
